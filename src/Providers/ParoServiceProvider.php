@@ -14,7 +14,7 @@ class ParoServiceProvider extends ServiceProvider
 	public function boot()
 	{
 		// First get the location of our config file
-		$path = realpath(__DIR__ . '/../../config/config.php')
+		$path = realpath(__DIR__ . '/../../config/config.php');
 		
 		// Now setup our publishing and merging
 		$this->publishes([$path => config_path('paro.php')], 'config');

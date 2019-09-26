@@ -1,0 +1,14 @@
+{
+    "name": "aidan.casey/paro",
+    "description": "An API query parser.",
+    "type": "library",
+    "require": {
+        "nscharrenberg/architect": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Aidan Casey",
+            "email": "aidan.casey@anteris.com"
+        }
+    ]
+}

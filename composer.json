@@ -1,7 +1,19 @@
 {
-    "name": "aidan.casey/paro",
+    "name": "aidan-casey/paro",
     "description": "An API query parser.",
     "type": "library",
+    "autoload": {
+        "psr-4": {
+            "AidanCasey\\Paro\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AidanCasey\\Paro\\Providers\\ParoServiceProvider"
+            ]
+        }
+    },
     "require": {
         "nscharrenberg/architect": "^2.0"
     },
